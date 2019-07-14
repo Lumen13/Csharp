@@ -8,7 +8,7 @@ namespace Library.Models
     {
         public string author;
         public string name;
-        public string book_text;
-        public int year;
+        public string year;
+        public string book_text;        
     }
 }
