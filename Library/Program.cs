@@ -7,12 +7,7 @@ namespace Library
         static void Main(string[] args)
         {
             BookLibrary bookLibrary = new BookLibrary("ул. Хуюкина 6", 10, 18);
-            bookLibrary.run();
-            
-            /*
-             * подзакреп!
-             */
-
+            bookLibrary.run();         
             Console.ReadKey();
         }
     }

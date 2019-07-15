@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Csharp\\Library\\Library.csproj": {}
+    "D:\\Csharp\\Library\\Library.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Csharp\\Library\\Library.csproj": {
+    "D:\\Csharp\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Csharp\\Library\\Library.csproj",
+        "projectUniqueName": "D:\\Csharp\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "D:\\Git\\Csharp\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\Ntap!\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Csharp\\Library\\obj\\",
+        "projectPath": "D:\\Csharp\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\Ntap\\.nuget\\packages\\",
+        "outputPath": "D:\\Csharp\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ntap!\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ntap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
