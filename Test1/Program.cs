@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Test1
 {
@@ -11,7 +12,7 @@ namespace Test1
             Name = name;
         }
 
-        public void Print ()
+        public virtual void Print ()
         {
             Console.WriteLine(Name);
         }
@@ -21,29 +22,52 @@ namespace Test1
         protected float speed;
         public Dog (float speed, string name) : base (name)
         {
+            this.speed = speed;            
+        }
+
+        public override void Print()
+        {
+            base.Print();
+            Console.WriteLine("Я Виртуальный метод и я ахуенен!");
+            Console.WriteLine("Dog Speed: " + speed);
+        }
+    }
+
+    class Cat : Animal
+    {
+        protected float speed;
+        public Cat(float speed, string name) : base(name)
+        {
             this.speed = speed;
-            Console.WriteLine("Speed: " + speed);
-        }        
+        }
+
+        public override void Print()
+        {
+            base.Print();
+            Console.WriteLine("Я Виртуальный метод и я ахуенен!");
+            Console.WriteLine("Cat Speed: " + speed);
+        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            Dog jack = new Dog(12.23f, "Jack")
-            {
-                Name = "Jack"
-            };
-            Console.WriteLine(jack.Name + " ");
-            jack.Print();
+            List<Animal> animals = new List<Animal>();
+            animals.Add(new Dog(12.23f, "SUKA"));
+            animals.Add(new Dog(5.80f, "KABEL'"));
+            animals.Add(new Cat(1.2f, "Впадлукот"));
 
-            Dog bob = new Dog(5.5f, "Bob")
+            foreach (Animal animal in animals)
             {
-                Name = "Bob"
-            };
-            Console.WriteLine(bob.Name + " ");
-            bob.Print();
+                animal.Print();
+                if (animal is Dog)
+                    Console.WriteLine("Собака - это животное\n");
 
+                if (animal is Cat)
+                    Console.WriteLine("Кошка - объебошка\n");
+            }
+           
             Console.ReadKey();         
         }
     }

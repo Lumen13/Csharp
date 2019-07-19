@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Test
 {
     public class Human
     {
         protected string creature;
-        protected string institute;
+        protected string institute;        
 
         protected Human(string _creature, string _institute)
         {
@@ -32,6 +33,8 @@ namespace Test
             age = _age;
             grant = _grant;
         }
+
+        
 
         public void Output()
         {
