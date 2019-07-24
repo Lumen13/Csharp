@@ -1,0 +1,11 @@
+D:\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.deps.json
+D:\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.runtimeconfig.json
+D:\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.runtimeconfig.dev.json
+D:\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.dll
+D:\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.pdb
+D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.csprojAssemblyReference.cache
+D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.csproj.CoreCompileInputs.cache
+D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.AssemblyInfoInputs.cache
+D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.AssemblyInfo.cs
+D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.dll
+D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.pdb

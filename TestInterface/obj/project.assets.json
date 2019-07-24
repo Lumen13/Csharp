@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Csharp\\Test2\\Test2.csproj",
-      "projectName": "Test2",
-      "projectPath": "D:\\Csharp\\Test2\\Test2.csproj",
+      "projectUniqueName": "D:\\Csharp\\TestInterface\\TestInterface.csproj",
+      "projectName": "TestInterface",
+      "projectPath": "D:\\Csharp\\TestInterface\\TestInterface.csproj",
       "packagesPath": "C:\\Users\\Ntap\\.nuget\\packages\\",
-      "outputPath": "D:\\Csharp\\Test2\\obj\\",
+      "outputPath": "D:\\Csharp\\TestInterface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
