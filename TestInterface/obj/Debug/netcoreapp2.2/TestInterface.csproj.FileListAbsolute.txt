@@ -9,3 +9,14 @@ D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.AssemblyInfoInputs
 D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.AssemblyInfo.cs
 D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.dll
 D:\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.pdb
+D:\Git\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.csprojAssemblyReference.cache
+D:\Git\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.csproj.CoreCompileInputs.cache
+D:\Git\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.AssemblyInfoInputs.cache
+D:\Git\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.AssemblyInfo.cs
+D:\Git\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.dll
+D:\Git\Csharp\TestInterface\obj\Debug\netcoreapp2.2\TestInterface.pdb
+D:\Git\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.deps.json
+D:\Git\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.runtimeconfig.json
+D:\Git\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.runtimeconfig.dev.json
+D:\Git\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.dll
+D:\Git\Csharp\TestInterface\bin\Debug\netcoreapp2.2\TestInterface.pdb

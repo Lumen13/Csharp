@@ -2,23 +2,34 @@
 using System.Collections.Generic;
 using System.Text;
 using TestInterface.cls;
+using TestInterface;
 
 namespace TestInterface.func
 {
     class FList : Lists
     {
-        private string input_string;
         public List <string> List_input_func()
-        {            
-            Console.WriteLine("Вас приветствует магазин 'PMS'!\nЧто бы вы хотели приобрести?");
+        {
+            Lists Lists_object = new Lists();
+            string input_string;
+            Console.WriteLine($"Здравствуйте!" +
+                "Вас приветствует магазин цифровой техники 'DNS'!\nЧто бы вы хотели приобрести?");
             Console.WriteLine($"\n1. Планшет" +
-                $"2. Стационарный персональный компьютер" +
-                $"3. Ноутбук" +
-                $"4. Телевизор" +
-                $"5. Игровую консоль" +
-                $"6. Смартфон");
+                $"\n2. Стационарный персональный компьютер" +
+                $"\n3. Ноутбук" +
+                $"\n4. Телевизор" +
+                $"\n5. Игровую консоль" +
+                $"\n6. Смартфон\n");
             input_string = Console.ReadLine();
-            return main_tech_list;
+            main_tech_list.Add(input_string);
+            Console.WriteLine("\nСписок 'main_tech_list' содержит:");
+
+            foreach (string i in main_tech_list)
+            {
+                Console.WriteLine(i);
+            }
+
+            return main_tech_list;            
         }
     }
 }

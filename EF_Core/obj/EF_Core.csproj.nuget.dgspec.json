@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Csharp\\TestInterface\\TestInterface.csproj": {}
+    "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Csharp\\TestInterface\\TestInterface.csproj": {
+    "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Csharp\\TestInterface\\TestInterface.csproj",
-        "projectName": "TestInterface",
-        "projectPath": "D:\\Git\\Csharp\\TestInterface\\TestInterface.csproj",
+        "projectUniqueName": "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj",
+        "projectName": "EF_Core",
+        "projectPath": "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj",
         "packagesPath": "C:\\Users\\Ntap!\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Csharp\\TestInterface\\obj\\",
+        "outputPath": "D:\\Git\\Csharp\\EF_Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

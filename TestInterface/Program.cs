@@ -8,11 +8,10 @@ using TestInterface.intf;
 
 namespace TestInterface
 {
-    class MainClass  : FList
+    class MainClass : FList
     {
         static void Main(string[] args)
         {
-            Lists Lists_object = new Lists();            
 
             Console.ReadKey();
         }
