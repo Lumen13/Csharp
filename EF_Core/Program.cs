@@ -6,7 +6,8 @@ namespace EF_Core
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Console.ReadLine();
         }
     }
 }

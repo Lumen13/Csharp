@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj": {}
+    "C:\\Users\\ntapr\\Documents\\Git\\EF_Core\\EF_Core.csproj": {}
   },
   "projects": {
-    "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj": {
+    "C:\\Users\\ntapr\\Documents\\Git\\EF_Core\\EF_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj",
+        "projectUniqueName": "C:\\Users\\ntapr\\Documents\\Git\\EF_Core\\EF_Core.csproj",
         "projectName": "EF_Core",
-        "projectPath": "D:\\Git\\Csharp\\EF_Core\\EF_Core.csproj",
-        "packagesPath": "C:\\Users\\Ntap!\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\Csharp\\EF_Core\\obj\\",
+        "projectPath": "C:\\Users\\ntapr\\Documents\\Git\\EF_Core\\EF_Core.csproj",
+        "packagesPath": "C:\\Users\\ntapr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ntapr\\Documents\\Git\\EF_Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ntap!\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ntapr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
