@@ -24,9 +24,9 @@ namespace HelloApp
 
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             {
-                optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;" +
-                    "Database=helloappdb;" +
-                    "Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("data source=localhost;" +
+                    "initial catalog=TestAppDb;" +
+                    "Integrated Security=True;");
             }
         }    
 
