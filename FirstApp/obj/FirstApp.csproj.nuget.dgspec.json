@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\HelloApp.csproj": {}
+    "C:\\Users\\ntapr\\Documents\\Git\\FirstApp\\FirstApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\HelloApp.csproj": {
+    "C:\\Users\\ntapr\\Documents\\Git\\FirstApp\\FirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\HelloApp.csproj",
-        "projectName": "HelloApp",
-        "projectPath": "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\HelloApp.csproj",
+        "projectUniqueName": "C:\\Users\\ntapr\\Documents\\Git\\FirstApp\\FirstApp.csproj",
+        "projectName": "FirstApp",
+        "projectPath": "C:\\Users\\ntapr\\Documents\\Git\\FirstApp\\FirstApp.csproj",
         "packagesPath": "C:\\Users\\ntapr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\obj\\",
+        "outputPath": "C:\\Users\\ntapr\\Documents\\Git\\FirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -34,7 +34,7 @@ namespace HelloApp
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                // создаем два объекта User
+                // создаем три объекта User
                 User user1 = new User { Name = "Tom", Age = 33 };
                 User user2 = new User { Name = "Alice", Age = 26 };
                 User user3 = new User { Name = "Jack", Age = 30 };
@@ -42,6 +42,7 @@ namespace HelloApp
                 // добавляем их в бд
                 db.Users.Add(user1);
                 db.Users.Add(user2);
+                db.Users.Add(user3);
                 db.SaveChanges();
                 Console.WriteLine("Объекты успешно сохранены");
 
