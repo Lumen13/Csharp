@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace HelloApp
 {
@@ -17,38 +19,34 @@ namespace HelloApp
         {
             public DbSet<User> Users { get; set; }
 
-            public ApplicationContext()
+            public ApplicationContext(DbContextOptions<ApplicationContext> options)
+                :base(options)
             {
                 Database.EnsureCreated();
-            }
-
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            {
-                optionsBuilder.UseSqlServer("data source=localhost;" +
-                    "initial catalog=TestAppDb;" +
-                    "Integrated Security=True;");
             }
         }    
 
         static void Main(string[] args)
         {
-            using (ApplicationContext db = new ApplicationContext())
+            var builder = new ConfigurationBuilder();
+
+            // установка пути к текущему каталогу
+            builder.SetBasePath(Directory.GetCurrentDirectory());
+            // получаем конфигурацию из файла appsettings.json
+            builder.AddJsonFile("AppConfig.json");
+            // создаем конфигурацию
+            var config = builder.Build();
+            // получаем строку подключения
+            string connectionString = config.GetConnectionString("DefaultConnection");
+
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
+            var options = optionsBuilder
+                .UseSqlServer(connectionString)
+                .Options;
+
+            using (ApplicationContext db = new ApplicationContext(options))
             {
-                // создаем три объекта User
-                User user1 = new User { Name = "Tom", Age = 33 };
-                User user2 = new User { Name = "Alice", Age = 26 };
-                User user3 = new User { Name = "Jack", Age = 30 };
-
-                // добавляем их в бд
-                db.Users.Add(user1);
-                db.Users.Add(user2);
-                db.Users.Add(user3);
-                db.SaveChanges();
-                Console.WriteLine("Объекты успешно сохранены");
-
-                // получаем объекты из бд и выводим на консоль
                 var users = db.Users.ToList();
-                Console.WriteLine("Список объектов:");
                 foreach (User u in users)
                 {
                     Console.WriteLine($"{u.Id}.{u.Name} - {u.Age}");

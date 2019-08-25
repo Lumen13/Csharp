@@ -20,3 +20,4 @@ C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.AssemblyI
 C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.AssemblyInfo.cs
 C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.dll
 C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.pdb
+C:\Users\ntapr\Documents\Git\HelloApp\bin\Debug\netcoreapp2.2\AppConfig.json
