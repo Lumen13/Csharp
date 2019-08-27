@@ -3781,23 +3781,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ntapr\\.nuget\\packages\\": {},
+    "C:\\Users\\Ntap\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\HelloApp.csproj",
+      "projectUniqueName": "D:\\Csharp\\HelloApp\\HelloApp.csproj",
       "projectName": "HelloApp",
-      "projectPath": "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\HelloApp.csproj",
-      "packagesPath": "C:\\Users\\ntapr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ntapr\\Documents\\Git\\HelloApp\\obj\\",
+      "projectPath": "D:\\Csharp\\HelloApp\\HelloApp.csproj",
+      "packagesPath": "C:\\Users\\Ntap\\.nuget\\packages\\",
+      "outputPath": "D:\\Csharp\\HelloApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ntapr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ntap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

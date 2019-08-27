@@ -42,7 +42,7 @@ namespace HelloApp
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
             var options = optionsBuilder
                 .UseSqlServer(connectionString)
-                .Options;
+                .Options;           
 
             using (ApplicationContext db = new ApplicationContext(options))
             {

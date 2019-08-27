@@ -21,3 +21,15 @@ C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.AssemblyI
 C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.dll
 C:\Users\ntapr\Documents\Git\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.pdb
 C:\Users\ntapr\Documents\Git\HelloApp\bin\Debug\netcoreapp2.2\AppConfig.json
+D:\Csharp\HelloApp\bin\Debug\netcoreapp2.2\AppConfig.json
+D:\Csharp\HelloApp\bin\Debug\netcoreapp2.2\HelloApp.deps.json
+D:\Csharp\HelloApp\bin\Debug\netcoreapp2.2\HelloApp.runtimeconfig.json
+D:\Csharp\HelloApp\bin\Debug\netcoreapp2.2\HelloApp.runtimeconfig.dev.json
+D:\Csharp\HelloApp\bin\Debug\netcoreapp2.2\HelloApp.dll
+D:\Csharp\HelloApp\bin\Debug\netcoreapp2.2\HelloApp.pdb
+D:\Csharp\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.csprojAssemblyReference.cache
+D:\Csharp\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.csproj.CoreCompileInputs.cache
+D:\Csharp\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.AssemblyInfoInputs.cache
+D:\Csharp\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.AssemblyInfo.cs
+D:\Csharp\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.dll
+D:\Csharp\HelloApp\obj\Debug\netcoreapp2.2\HelloApp.pdb
