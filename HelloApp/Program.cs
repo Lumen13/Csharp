@@ -2,6 +2,7 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+//using System.ComponentModel.DataAnnotations;
 using System.IO;
 
 namespace HelloApp
@@ -14,9 +15,31 @@ namespace HelloApp
             public string Name { get; set; }
             public int Age { get; set; }
         }
+        public class Phone
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public int Price { get; set; }
+            // навигационное свойство
+            public Company Manufacturer { get; set; }
+        }
+
+        public class Company
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
+
+        public class Tablet
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public int Price { get; set; }
+        }
     
         public class ApplicationContext : DbContext
         {
+            public DbSet<Phone> Phones { get; set; }
             public DbSet<User> Users { get; set; }
 
             public ApplicationContext(DbContextOptions<ApplicationContext> options)
@@ -24,6 +47,12 @@ namespace HelloApp
             {
                 Database.EnsureCreated();
             }
+
+            /*protected override void OnModelCreating(ModelBuilder modelBuilder)
+            {
+                // использование Fluent API
+                base.OnModelCreating(modelBuilder);
+            }*/
         }    
 
         static void Main(string[] args)
@@ -42,7 +71,7 @@ namespace HelloApp
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
             var options = optionsBuilder
                 .UseSqlServer(connectionString)
-                .Options;           
+                .Options;
 
             using (ApplicationContext db = new ApplicationContext(options))
             {
@@ -52,6 +81,16 @@ namespace HelloApp
                     Console.WriteLine($"{u.Id}.{u.Name} - {u.Age}");
                 }
             }
+
+            using (ApplicationContext db = new ApplicationContext(options))
+            {
+                var phones = db.Phones.ToList();
+                foreach (Phone p in phones)
+                {
+                    Console.WriteLine($"{p.Id}.{p.Name} - {p.Price}.{p.Manufacturer}");
+                }
+            }
+
             Console.Read();
         }
     }
