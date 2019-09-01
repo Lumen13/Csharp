@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 //using System.ComponentModel.DataAnnotations;
 using System.IO;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HelloApp
 {
@@ -21,7 +22,10 @@ namespace HelloApp
             public string Name { get; set; }
             public int Price { get; set; }
             // навигационное свойство
+            
+            public int CompanyId { get; set; }
             public Company Manufacturer { get; set; }
+            
         }
 
         public class Company
@@ -35,12 +39,14 @@ namespace HelloApp
             public int Id { get; set; }
             public string Name { get; set; }
             public int Price { get; set; }
+            public string Test { get; set; }
         }
     
         public class ApplicationContext : DbContext
         {
             public DbSet<Phone> Phones { get; set; }
             public DbSet<User> Users { get; set; }
+            public DbSet<Tablet> Tablets { get; set; }
 
             public ApplicationContext(DbContextOptions<ApplicationContext> options)
                 :base(options)

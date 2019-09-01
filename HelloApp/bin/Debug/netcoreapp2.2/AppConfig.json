@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "data source=localhost;initial catalog=TestAppDb;Integrated Security=True;"
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=efbasicsappdb;Trusted_Connection=True;"
   }
 }
