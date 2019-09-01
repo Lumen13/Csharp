@@ -1,0 +1,17 @@
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.deps.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.runtimeconfig.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.runtimeconfig.dev.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.AssemblyInfo.cs
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.Data.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\TestSevPhone.Data.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\obj\Debug\netcoreapp2.2\TestSevPhone.ConsoleApp.csproj.CopyComplete
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.ConsoleApp\bin\Debug\netcoreapp2.2\Config.json

@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-3I2IB82;Database=SevPhoneDb;Trusted_Connection=True;"
+  }
+}

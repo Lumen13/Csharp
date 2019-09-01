@@ -1,0 +1,14 @@
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.deps.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.csproj.CoreCompileInputs.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.AssemblyInfoInputs.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.AssemblyInfo.cs
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.csprojAssemblyReference.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.runtimeconfig.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.runtimeconfig.dev.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.EF.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\bin\Debug\netcoreapp2.2\TestSevPhone.Data.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.csproj.CopyComplete
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data.EF\obj\Debug\netcoreapp2.2\TestSevPhone.Data.EF.pdb

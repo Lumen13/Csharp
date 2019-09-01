@@ -1,0 +1,9 @@
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\bin\Debug\netcoreapp2.2\TestSevPhone.Data.deps.json
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\bin\Debug\netcoreapp2.2\TestSevPhone.Data.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\bin\Debug\netcoreapp2.2\TestSevPhone.Data.pdb
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\obj\Debug\netcoreapp2.2\TestSevPhone.Data.csprojAssemblyReference.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\obj\Debug\netcoreapp2.2\TestSevPhone.Data.csproj.CoreCompileInputs.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\obj\Debug\netcoreapp2.2\TestSevPhone.Data.AssemblyInfoInputs.cache
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\obj\Debug\netcoreapp2.2\TestSevPhone.Data.AssemblyInfo.cs
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\obj\Debug\netcoreapp2.2\TestSevPhone.Data.dll
+C:\Users\ntapr\source\repos\TestSevPhone\TestSevPhone.Data\obj\Debug\netcoreapp2.2\TestSevPhone.Data.pdb
