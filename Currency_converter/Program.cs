@@ -16,8 +16,8 @@ namespace MyStudy
                 "1. Рубли\n" +
                 "2. Доллары\n" +
                 "3. Евро");
-            string str = (Console.ReadLine());            
-            bool result = Int32.TryParse(str, out a);            
+            string str = (Console.ReadLine());
+            bool result = Int32.TryParse(str, out a);
             if (result == true)
             {
                 Console.WriteLine("\nВведите сумму:");
@@ -58,7 +58,7 @@ namespace MyStudy
             else
             {
                 Console.WriteLine("\nОшибка! Введите число от 1 до 3");
-            }            
+            }
         }
     }
 }

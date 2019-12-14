@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Test
+namespace Hometask_ariphmetic
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }

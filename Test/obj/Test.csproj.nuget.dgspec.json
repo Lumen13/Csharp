@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ntap\\Documents\\GitHub\\Csharp\\Test\\Test.csproj": {}
+    "C:\\Users\\Ntap\\Documents\\GitHub\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ntap\\Documents\\GitHub\\Csharp\\Test\\Test.csproj": {
+    "C:\\Users\\Ntap\\Documents\\GitHub\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ntap\\Documents\\GitHub\\Csharp\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\Ntap\\Documents\\GitHub\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\Ntap\\Documents\\GitHub\\Csharp\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\Ntap\\Documents\\GitHub\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\Ntap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ntap\\Documents\\GitHub\\Csharp\\Test\\obj\\",
+        "outputPath": "C:\\Users\\Ntap\\Documents\\GitHub\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ntap\\AppData\\Roaming\\NuGet\\NuGet.Config",
