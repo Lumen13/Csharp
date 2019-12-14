@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency_converter", "..\Currency_converter\Currency_converter.csproj", "{B2B14581-ED5D-4FC4-9F52-E29E7A95F9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Currency_converter", "..\Currency_converter\Currency_converter.csproj", "{B2B14581-ED5D-4FC4-9F52-E29E7A95F9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_ariphmetic", "..\Hometask_ariphmetic\Hometask_ariphmetic.csproj", "{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_ariphmetic", "..\Hometask_ariphmetic\Hometask_ariphmetic.csproj", "{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hometask_divisible-by-2", "hometask_divisible-by-2\hometask_divisible-by-2.csproj", "{77F40DF9-DCAD-47DC-A431-A26929CBC103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F40DF9-DCAD-47DC-A431-A26929CBC103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F40DF9-DCAD-47DC-A431-A26929CBC103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F40DF9-DCAD-47DC-A431-A26929CBC103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F40DF9-DCAD-47DC-A431-A26929CBC103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
