@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_ariphmetic", "..\H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hometask_divisible-by-2", "hometask_divisible-by-2\hometask_divisible-by-2.csproj", "{77F40DF9-DCAD-47DC-A431-A26929CBC103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_calculator_1", "Hometask_calculator_1\Hometask_calculator_1.csproj", "{94503578-FF60-4DE4-A861-544C6B02D1FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_calculator_1", "Hometask_calculator_1\Hometask_calculator_1.csproj", "{94503578-FF60-4DE4-A861-544C6B02D1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_calculator_2", "Hometask_calculator_2\Hometask_calculator_2.csproj", "{AC6EF257-3CF8-4980-AD1D-DE64B1F7E2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_calculator_2", "Hometask_calculator_2\Hometask_calculator_2.csproj", "{AC6EF257-3CF8-4980-AD1D-DE64B1F7E2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_parity_counter", "Hometask_parity_counter\Hometask_parity_counter.csproj", "{43DF238D-A818-4E97-BF33-24B972CE9717}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AC6EF257-3CF8-4980-AD1D-DE64B1F7E2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC6EF257-3CF8-4980-AD1D-DE64B1F7E2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC6EF257-3CF8-4980-AD1D-DE64B1F7E2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DF238D-A818-4E97-BF33-24B972CE9717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DF238D-A818-4E97-BF33-24B972CE9717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DF238D-A818-4E97-BF33-24B972CE9717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DF238D-A818-4E97-BF33-24B972CE9717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
