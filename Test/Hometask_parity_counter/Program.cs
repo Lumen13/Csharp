@@ -9,8 +9,9 @@ namespace Hometask_parity_counter
             while (true)
             {
                 Console.Clear();
-                int FirstValue, SecondValue, CheckParity, CheckRecursion;                
-                Console.WriteLine("Введите 2 целых числа, чтобы задать диапазон проверки четности\n");
+                int FirstValue, SecondValue, CheckParity, CheckRecursion, SumParity = 0, SumOddness = 0;
+                uint CounterParity = 0, CounterOddness = 0;
+                Console.WriteLine("Введите 2 целых числа, чтобы задать диапазон проверки четности и посчитать сумму\n");
 
                 try
                 {
@@ -37,17 +38,31 @@ namespace Hometask_parity_counter
                         "Попробуйте ввести 2 приближенных друг к другу по значениям числа");
                     Console.ReadLine();
                     continue;
-                }                    
+                }
 
                 while (FirstValue <= SecondValue)
                 {
                     CheckParity = FirstValue % 2;
                     if (CheckParity == 0)
+                    {
                         Console.WriteLine($"{FirstValue} - четное");
+                        SumParity += FirstValue;
+                        CounterParity++;
+                        FirstValue++;
+                    }
                     else
+                    {
                         Console.WriteLine($"{FirstValue} - не четное");
-                    FirstValue++;
+                        SumOddness += FirstValue;
+                        CounterOddness++;
+                        FirstValue++;
+                    }
                 }
+
+                Console.WriteLine($"\nКоличество чётных чисел = {CounterParity}" +
+                    $"\nКоличество нечётных чисел = {CounterOddness}" +
+                    $"\nОбщая сумма чётных чисел = {SumParity}" +
+                    $"\nОбщая сумма нечётных чисел = {SumOddness}");
 
                 Console.ReadLine();
             }            
