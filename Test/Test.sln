@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Currency_converter", "..\Currency_converter\Currency_converter.csproj", "{B2B14581-ED5D-4FC4-9F52-E29E7A95F9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_Currency_converter", "..\Currency_converter\Hometask_Currency_converter.csproj", "{B2B14581-ED5D-4FC4-9F52-E29E7A95F9E4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_ariphmetic", "..\Hometask_ariphmetic\Hometask_ariphmetic.csproj", "{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}"
 EndProject
@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_calculator_1", "Ho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_calculator_2", "Hometask_calculator_2\Hometask_calculator_2.csproj", "{AC6EF257-3CF8-4980-AD1D-DE64B1F7E2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_parity_counter", "Hometask_parity_counter\Hometask_parity_counter.csproj", "{43DF238D-A818-4E97-BF33-24B972CE9717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_parity_counter", "Hometask_parity_counter\Hometask_parity_counter.csproj", "{43DF238D-A818-4E97-BF33-24B972CE9717}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_triangles", "Hometask_triangles\Hometask_triangles.csproj", "{E8E10DDE-C38B-4729-AE06-83B588B1799D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRASH", "TRASH\TRASH.csproj", "{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{43DF238D-A818-4E97-BF33-24B972CE9717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DF238D-A818-4E97-BF33-24B972CE9717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DF238D-A818-4E97-BF33-24B972CE9717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E10DDE-C38B-4729-AE06-83B588B1799D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E10DDE-C38B-4729-AE06-83B588B1799D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E10DDE-C38B-4729-AE06-83B588B1799D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E10DDE-C38B-4729-AE06-83B588B1799D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

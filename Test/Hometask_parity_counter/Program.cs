@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Hometask_parity_counter
+namespace Hometask_parity_SymbolCounter
 {
     class Program
     {
@@ -10,7 +10,7 @@ namespace Hometask_parity_counter
             {
                 Console.Clear();
                 int FirstValue, SecondValue, CheckParity, CheckRecursion, SumParity = 0, SumOddness = 0;
-                uint CounterParity = 0, CounterOddness = 0;
+                uint SymbolCounterParity = 0, SymbolCounterOddness = 0;
                 Console.WriteLine("Введите 2 целых числа, чтобы задать диапазон проверки четности и посчитать сумму\n");
 
                 try
@@ -47,20 +47,20 @@ namespace Hometask_parity_counter
                     {
                         Console.WriteLine($"{FirstValue} - четное");
                         SumParity += FirstValue;
-                        CounterParity++;
+                        SymbolCounterParity++;
                         FirstValue++;
                     }
                     else
                     {
                         Console.WriteLine($"{FirstValue} - не четное");
                         SumOddness += FirstValue;
-                        CounterOddness++;
+                        SymbolCounterOddness++;
                         FirstValue++;
                     }
                 }
 
-                Console.WriteLine($"\nКоличество чётных чисел = {CounterParity}" +
-                    $"\nКоличество нечётных чисел = {CounterOddness}" +
+                Console.WriteLine($"\nКоличество чётных чисел = {SymbolCounterParity}" +
+                    $"\nКоличество нечётных чисел = {SymbolCounterOddness}" +
                     $"\nОбщая сумма чётных чисел = {SumParity}" +
                     $"\nОбщая сумма нечётных чисел = {SumOddness}");
 
