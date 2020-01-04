@@ -7,7 +7,7 @@ namespace TRASH
         static void Main(string[] args)
         {
             /*
-                    Массив, заполняемый с клавиатуры
+                    Массив, с выводом в обратном порядке
              */
 
             while (true)
@@ -17,7 +17,7 @@ namespace TRASH
                 try
                 {
                     Console.WriteLine("Введите длину массива:");
-                    uint ArrayLenght = uint.Parse(Console.ReadLine());
+                    int ArrayLenght = int.Parse(Console.ReadLine());
                     int[] Array = new int[ArrayLenght];
 
                     Console.WriteLine("Вводите числа и они добавятся в массив:");
@@ -28,7 +28,7 @@ namespace TRASH
 
                     Console.WriteLine();
 
-                    for (uint i = 0; i < Array.Length; i++)
+                    for (int i = ArrayLenght - 1; i >= 0; i--)
                     {
                         Console.Write($"[{Array[i]}] ");
                     }
@@ -41,7 +41,7 @@ namespace TRASH
                 }
 
                 Console.ReadLine();
-            }            
+            }
         }
     }
 }

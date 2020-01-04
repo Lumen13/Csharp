@@ -1,23 +1,24 @@
 ﻿using System;
 
-namespace TRASH
+namespace Hometask_array2
 {
     class Program
     {
         static void Main(string[] args)
         {
             /*
-                    Массив, заполняемый с клавиатуры
-             */
+                   Вывод суммы чётных чисел в массиве
+            */
 
             while (true)
             {
                 Console.Clear();
-
+                
+                int Sum = 0;
                 try
                 {
                     Console.WriteLine("Введите длину массива:");
-                    uint ArrayLenght = uint.Parse(Console.ReadLine());
+                    int ArrayLenght = int.Parse(Console.ReadLine());
                     int[] Array = new int[ArrayLenght];
 
                     Console.WriteLine("Вводите числа и они добавятся в массив:");
@@ -27,10 +28,11 @@ namespace TRASH
                     }
 
                     Console.WriteLine();
-
-                    for (uint i = 0; i < Array.Length; i++)
+                    
+                    for (int i = 0; i < Array.Length; i++)
                     {
-                        Console.Write($"[{Array[i]}] ");
+                        if (Array[i] % 2 == 0)                        
+                            Sum += Array[i];                        
                     }
                 }
                 catch (Exception)
@@ -40,8 +42,9 @@ namespace TRASH
                     continue;
                 }
 
+                Console.WriteLine(Sum);
                 Console.ReadLine();
-            }            
+            }
         }
     }
 }

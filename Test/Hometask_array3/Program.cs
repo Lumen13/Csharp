@@ -1,23 +1,25 @@
 ﻿using System;
 
-namespace TRASH
+namespace Hometask_array3
 {
     class Program
     {
         static void Main(string[] args)
         {
             /*
-                    Массив, заполняемый с клавиатуры
-             */
+                   Поиск наименьшего числа в массиве
+            */
 
             while (true)
             {
                 Console.Clear();
 
+                int Comparing = 0;
+                int LowerNum = 0;
                 try
                 {
                     Console.WriteLine("Введите длину массива:");
-                    uint ArrayLenght = uint.Parse(Console.ReadLine());
+                    int ArrayLenght = int.Parse(Console.ReadLine());
                     int[] Array = new int[ArrayLenght];
 
                     Console.WriteLine("Вводите числа и они добавятся в массив:");
@@ -28,9 +30,12 @@ namespace TRASH
 
                     Console.WriteLine();
 
-                    for (uint i = 0; i < Array.Length; i++)
+                    LowerNum = Array[0];
+                    for (int i = 0; i < Array.Length; i++)
                     {
-                        Console.Write($"[{Array[i]}] ");
+                        Comparing = Array[i];                        
+                        if (LowerNum > Comparing)
+                            LowerNum = Comparing;                        
                     }
                 }
                 catch (Exception)
@@ -40,8 +45,9 @@ namespace TRASH
                     continue;
                 }
 
+                Console.WriteLine(LowerNum);
                 Console.ReadLine();
-            }            
+            }
         }
     }
 }

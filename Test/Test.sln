@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_Currency_converter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_ariphmetic", "..\Hometask_ariphmetic\Hometask_ariphmetic.csproj", "{DBB4DB54-1FDD-437D-8AAB-2C0642D6197D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hometask_divisible-by-2", "hometask_divisible-by-2\hometask_divisible-by-2.csproj", "{77F40DF9-DCAD-47DC-A431-A26929CBC103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_divisible-by-2", "hometask_divisible-by-2\Hometask_divisible-by-2.csproj", "{77F40DF9-DCAD-47DC-A431-A26929CBC103}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_calculator_1", "Hometask_calculator_1\Hometask_calculator_1.csproj", "{94503578-FF60-4DE4-A861-544C6B02D1FB}"
 EndProject
@@ -17,7 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_parity_counter", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_triangles", "Hometask_triangles\Hometask_triangles.csproj", "{E8E10DDE-C38B-4729-AE06-83B588B1799D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRASH", "TRASH\TRASH.csproj", "{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_array0", "TRASH\Hometask_array0.csproj", "{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_array1", "Hometask_array1\Hometask_array1.csproj", "{AA4B6B38-9136-4EEE-A970-C45155B0D395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_array2", "Hometask_array2\Hometask_array2.csproj", "{6EF32E56-75E1-4DEE-911F-31ABBD27FA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hometask_array3", "Hometask_array3\Hometask_array3.csproj", "{F4F6134C-C2B4-46DD-BD1F-455A00D33D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RUBBISH", "RUBBISH\RUBBISH.csproj", "{9D3FE8BC-C0F8-43C0-8EB0-ACE206D84BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26895644-DAD7-4A74-A7A3-73EA8ECEF40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B6B38-9136-4EEE-A970-C45155B0D395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4B6B38-9136-4EEE-A970-C45155B0D395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4B6B38-9136-4EEE-A970-C45155B0D395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4B6B38-9136-4EEE-A970-C45155B0D395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF32E56-75E1-4DEE-911F-31ABBD27FA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF32E56-75E1-4DEE-911F-31ABBD27FA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF32E56-75E1-4DEE-911F-31ABBD27FA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF32E56-75E1-4DEE-911F-31ABBD27FA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F6134C-C2B4-46DD-BD1F-455A00D33D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F6134C-C2B4-46DD-BD1F-455A00D33D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F6134C-C2B4-46DD-BD1F-455A00D33D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F6134C-C2B4-46DD-BD1F-455A00D33D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3FE8BC-C0F8-43C0-8EB0-ACE206D84BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3FE8BC-C0F8-43C0-8EB0-ACE206D84BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3FE8BC-C0F8-43C0-8EB0-ACE206D84BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3FE8BC-C0F8-43C0-8EB0-ACE206D84BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
