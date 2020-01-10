@@ -1,28 +1,28 @@
 ﻿using System;
 
-namespace PowerSupply
+namespace RUBBUSH2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /*      Программа расчёта мощности БП
-             *      для ПК в зависимости от комплектующих.
-             *      Методы со ссылками и всевозможными параметрами
-             */
+            Addition(1, 2, 3, 4, 5);
 
-            int Result = Calculation
-                (x: int.Parse(Console.ReadLine()),
-                 y: int.Parse(Console.ReadLine())
-                 );
+            int[] array = new int[] { 1, 2, 3, 4 };
+            Addition(array);
 
-            Console.WriteLine(Result);
-        }
+            Addition();
+            Console.ReadLine();
+        }        
 
-        static int Calculation(int x, int y)
+        static void Addition(params int[] integers)
         {
-            return x + y;
+            int result = 0;
+            for (int i=0;i<integers.Length;i++)
+            {
+                result += integers[i];
+            }
+            Console.WriteLine(result);
         }
-    }
     }
 }

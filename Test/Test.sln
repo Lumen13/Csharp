@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hometask_array3", "Hometask
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RUBBISH", "RUBBISH\RUBBISH.csproj", "{9D3FE8BC-C0F8-43C0-8EB0-ACE206D84BFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerSupply", "PowerSupply\PowerSupply.csproj", "{7F7678F0-495F-4AAC-81A9-506B02AA2613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RUBBISH2", "PowerSupply\RUBBISH2.csproj", "{7F7678F0-495F-4AAC-81A9-506B02AA2613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
