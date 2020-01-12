@@ -6,11 +6,12 @@ namespace RUBBISH2
     {
         static void CarAdd()
         {
-            Cars cars = new Cars();            
+            Cars cars = new Cars();
             for (int n = 0; n < cars.CarNewArray.Length; n++)
             {
                 Console.WriteLine(cars.CarInfoArray[n]);
                 cars.CarNewArray[n] = Convert.ToString(Console.ReadLine());
+                cars.CarAllArray[n] = cars.CarNewArray;
             }
         }
 
@@ -31,6 +32,7 @@ namespace RUBBISH2
 
         public class Cars
         {
+            public string[][] CarAllArray = new string[50][];
             public string[] CarNewArray = new string[4];
             public string[] CarInfoArray = new string[4]
             {
@@ -75,7 +77,7 @@ namespace RUBBISH2
 
                             continue;
                         }                        
-                        break;
+                        continue;
                     case 2:
 
                     case 3:
