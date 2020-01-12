@@ -1,28 +1,37 @@
 ﻿using System;
 
-namespace RUBBUSH2
+namespace RUBBISH2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Addition(1, 2, 3, 4, 5);
-
-            int[] array = new int[] { 1, 2, 3, 4 };
-            Addition(array);
-
-            Addition();
-            Console.ReadLine();
-        }        
-
-        static void Addition(params int[] integers)
-        {
-            int result = 0;
-            for (int i=0;i<integers.Length;i++)
+            while (true)
             {
-                result += integers[i];
+                Console.Clear();
+
+                Console.WriteLine("Автосалон 'Grand-Auto'");
+                Console.WriteLine("\n1. Добавить автомобиль");
+                Console.WriteLine("2. Посмотреть какие машины в наличии");
+                Console.WriteLine("3. Продать автомобиль");
+                Console.WriteLine("4. Бюджет");
+                                
+                string[] NewCar = new string[4];
+                string[] CarsInfo = new string[4]
+                {
+                    "\nБренд (марка) автомобиля:",
+                    "Модель:",
+                    "Цвет:",
+                    "Цена:"
+                };
+                for (int n = 0; n < NewCar.Length; n++)
+                {
+                    Console.WriteLine(CarsInfo[n]);
+                    NewCar[n] = Convert.ToString(Console.ReadLine());              
+                }
+
+                Console.ReadLine();
             }
-            Console.WriteLine(result);
         }
     }
 }
