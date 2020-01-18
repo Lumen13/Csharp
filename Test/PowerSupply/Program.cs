@@ -4,20 +4,29 @@ namespace RUBBISH2
 {
     class Program
     {
-        static void CarAdd()
+        static string[][] CarAdd(Cars cars)
         {
-            Cars cars = new Cars();
             for (int n = 0; n < cars.CarNewArray.Length; n++)
-            {
+            {                
                 Console.WriteLine(cars.CarInfoArray[n]);
                 cars.CarNewArray[n] = Convert.ToString(Console.ReadLine());
+                cars.CarAllArray[n] = new string[4]; // ERROR HERE!
                 cars.CarAllArray[n] = cars.CarNewArray;
             }
+            return cars.CarAllArray;            
         }
 
-        static void CarInfo()
+        static void CarInfo(string [][] CarAllArray)
         {
-
+            Console.WriteLine();
+            foreach (string[] Row in CarAllArray)
+            {
+                foreach (string Element in Row)
+                {
+                    Console.WriteLine(Element);
+                }                                
+            }
+            Console.ReadLine();
         }
 
         static void CarSell()
@@ -43,8 +52,9 @@ namespace RUBBISH2
             };
         }
 
-        static void Main(string[] args)
+        static void Main()
         {
+            Cars cars = new Cars();
             while (true)
             {
                 Console.Clear();
@@ -67,19 +77,12 @@ namespace RUBBISH2
                 
                 switch (choose)
                 {
-                    case 1:
-                        try
-                        {                            
-                            CarAdd();
-                        }
-                        catch (Exception)
-                        {
-
-                            continue;
-                        }                        
+                    case 1:                                                  
+                        CarAdd(cars);
                         continue;
                     case 2:
-
+                        CarInfo(cars.CarAllArray);
+                        continue;
                     case 3:
 
                     case 4:

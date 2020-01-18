@@ -3,26 +3,39 @@
 namespace RUBBISH
 {
     class Program
-    {
-        public static void Main(string[] args)
+    {        
+        static void Main(string[] args)
         {
-            Addition(1, 2, 3, 4, 5);
+            foreach (string s in myReturn())
+                Console.WriteLine(s);
+            int[] mySortArray = { 4, 1, 2, 5, 3 };
 
-            int[] array = new int[] { 1, 2, 3, 4 };
-            Addition(array);
+            for (int i = 0; i <= 4; i++)
+                mySortArray[i] = mySort(mySortArray, i);
 
-            Addition();
+            Console.WriteLine("\nОтсортированный массив:\n");
+            foreach (int i in mySortArray)
+                Console.Write("\t" + i);
+
             Console.ReadLine();
         }
 
-        public static void Addition(params int[] integers)
+        // Данный метод возвращает массив Info
+        static Array myReturn()
         {
-            int result = 0;
-            for (int i = 0; i < integers.Length; i++)
-            {
-                result += integers[i];
-            }
-            Console.WriteLine(result);
+            string[] Info = { "Name", "Family", "Adress" };
+            return Info;
         }
+
+        // Передача массива в метод в качестве параметра
+        // Данный метод возвращает значение одного из индексов
+        // отсортированного массива
+        static int mySort(Array sortArray, int i)
+        {
+            Array.Sort(sortArray);
+            return (int)sortArray.GetValue(i);
+        }
+        
     }
 }
+
