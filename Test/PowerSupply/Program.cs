@@ -4,28 +4,22 @@ namespace RUBBISH2
 {
     class Program
     {
-        static string[][] CarAdd(Cars cars)
+        static void CarAdd(Cars cars)
         {
-            for (int n = 0; n < cars.CarNewArray.Length; n++)
-            {                
-                Console.WriteLine(cars.CarInfoArray[n]);
-                cars.CarNewArray[n] = Convert.ToString(Console.ReadLine());
-                cars.CarAllArray[n] = new string[4]; // ERROR HERE!
-                cars.CarAllArray[n] = cars.CarNewArray;
+            for (int spec = 0; spec < 4; spec++) 
+            {
+                Console.WriteLine(cars.CarInfoArray[spec]);
+                cars.CarNewArray[spec] = Console.ReadLine();
+                cars.CarAllArray[cars.CarsCounter, spec] = cars.CarNewArray[spec];
             }
-            return cars.CarAllArray;            
+            cars.CarsCounter++;
         }
 
-        static void CarInfo(string [][] CarAllArray)
+        static void CarInfo(string [,] CarAllArray)
         {
             Console.WriteLine();
-            foreach (string[] Row in CarAllArray)
-            {
-                foreach (string Element in Row)
-                {
+            foreach (string Element in CarAllArray)                         
                     Console.WriteLine(Element);
-                }                                
-            }
             Console.ReadLine();
         }
 
@@ -41,7 +35,8 @@ namespace RUBBISH2
 
         public class Cars
         {
-            public string[][] CarAllArray = new string[50][];
+            public uint CarsCounter = 0;
+            public string[,] CarAllArray = new string[50,4];
             public string[] CarNewArray = new string[4];
             public string[] CarInfoArray = new string[4]
             {
@@ -54,7 +49,7 @@ namespace RUBBISH2
 
         static void Main()
         {
-            Cars cars = new Cars();
+            Cars cars = new Cars();            
             while (true)
             {
                 Console.Clear();
