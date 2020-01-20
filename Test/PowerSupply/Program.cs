@@ -8,7 +8,7 @@ namespace RUBBISH2
         {
             for (int spec = 0; spec < 4; spec++) 
             {
-                Console.WriteLine(cars.CarInfoArray[spec]);
+                Console.WriteLine(cars.CarTextArray[spec]);
                 cars.CarNewArray[spec] = Console.ReadLine();
                 cars.CarAllArray[cars.CarsCounter, spec] = cars.CarNewArray[spec];
             }
@@ -16,10 +16,22 @@ namespace RUBBISH2
         }
 
         static void CarInfo(string [,] CarAllArray)
-        {
+        {            
             Console.WriteLine();
-            foreach (string Element in CarAllArray)                         
-                    Console.WriteLine(Element);
+            int row = CarAllArray.GetUpperBound(0) + 1;
+            int column = CarAllArray.Length / row;            
+            for (int i = 0; i < 4; i++)
+            {
+                if (CarAllArray[i,0] == null)
+                {
+                    continue;
+                }
+                for (int j = 0; j < column; j++)
+                {                    
+                    Console.WriteLine($"{CarAllArray[i, j]}");
+                }
+                Console.WriteLine();
+            }
             Console.ReadLine();
         }
 
@@ -31,14 +43,14 @@ namespace RUBBISH2
         static void Cash()
         {
 
-        }
+        }        
 
         public class Cars
-        {
+        {            
             public uint CarsCounter = 0;
             public string[,] CarAllArray = new string[50,4];
             public string[] CarNewArray = new string[4];
-            public string[] CarInfoArray = new string[4]
+            public string[] CarTextArray = new string[4]
             {
                     "\nБренд (марка) автомобиля:",
                     "\nМодель:",
@@ -49,7 +61,7 @@ namespace RUBBISH2
 
         static void Main()
         {
-            Cars cars = new Cars();            
+            Cars cars = new Cars();
             while (true)
             {
                 Console.Clear();
