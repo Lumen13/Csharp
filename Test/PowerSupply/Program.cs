@@ -35,9 +35,16 @@ namespace RUBBISH2
             Console.ReadLine();
         }
 
-        static void CarSell()
+        static void CarSell(string[,] CarAllArray)
         {
-
+            for (int i = 0; i < CarAllArray.Length; i++)
+            {
+                if (i % 4 == 0)
+                {
+                    Console.WriteLine(CarAllArray[50, i]); // exception
+                }
+                Console.WriteLine();
+            }   
         }
 
         static void Cash()
@@ -91,7 +98,8 @@ namespace RUBBISH2
                         CarInfo(cars.CarAllArray);
                         continue;
                     case 3:
-
+                        CarSell(cars.CarAllArray);
+                        continue;
                     case 4:
 
                     default:
