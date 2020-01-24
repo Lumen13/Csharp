@@ -35,21 +35,42 @@ namespace RUBBISH2
             Console.ReadLine();
         }
 
-        static void CarSell(string[,] CarAllArray)
+        static double CarSell(string[,] CarAllArray)
         {
-            for (int i = 0; i < CarAllArray.Length; i++)
+            Console.WriteLine();
+            //uint FirstCounter = 0;            
+            double sum = 0, elem = 0;                           
+            Console.WriteLine($"Вы продали:");
+            for (ushort column = 0; column < 50; column++)
             {
-                if (i % 4 == 0)
+                if (CarAllArray[column, 0] == null)
                 {
-                    Console.WriteLine(CarAllArray[50, i]); // exception
+                    break;
                 }
-                Console.WriteLine();
-            }   
+                for (ushort line = 0; line < 4; line++)
+                {                    
+                    if (line == 3)
+                    {
+                        elem = Convert.ToDouble(CarAllArray[column, line]);
+                        sum += elem;
+                        Console.Write($" - продан за {CarAllArray[column, line]}$\n");
+                        CarAllArray[column, line] = null;
+                    }
+                    else
+                    {
+                        Console.Write($"{CarAllArray[column, line]} ");
+                        CarAllArray[column, line] = null;
+                    }                        
+                }                
+            }
+            Console.ReadLine();
+            return sum;
         }
 
-        static void Cash()
+        static void Cash(double sum)
         {
-
+            Console.WriteLine($"\nИТОГО: Вы заработали {sum}$!");
+            Console.ReadLine();
         }        
 
         public class Cars
@@ -69,6 +90,7 @@ namespace RUBBISH2
         static void Main()
         {
             Cars cars = new Cars();
+            double sum = 0;
             while (true)
             {
                 Console.Clear();
@@ -98,10 +120,11 @@ namespace RUBBISH2
                         CarInfo(cars.CarAllArray);
                         continue;
                     case 3:
-                        CarSell(cars.CarAllArray);
+                        sum = CarSell(cars.CarAllArray);
                         continue;
                     case 4:
-
+                        Cash(sum);
+                        continue;
                     default:
                         break;
                 }
