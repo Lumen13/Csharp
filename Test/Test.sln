@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RUBBISH", "RUBBISH\RUBBISH.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RUBBISH2", "PowerSupply\RUBBISH2.csproj", "{7F7678F0-495F-4AAC-81A9-506B02AA2613}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop", "CarShop\CarShop.csproj", "{2EE3BBFF-3F86-49DB-8CAC-22B6ED44BC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7F7678F0-495F-4AAC-81A9-506B02AA2613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7678F0-495F-4AAC-81A9-506B02AA2613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7678F0-495F-4AAC-81A9-506B02AA2613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE3BBFF-3F86-49DB-8CAC-22B6ED44BC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE3BBFF-3F86-49DB-8CAC-22B6ED44BC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE3BBFF-3F86-49DB-8CAC-22B6ED44BC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE3BBFF-3F86-49DB-8CAC-22B6ED44BC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
