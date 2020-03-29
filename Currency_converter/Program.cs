@@ -7,8 +7,8 @@ namespace MyStudy
     {
         static void Main(string[] args)
         {
-            double dol = 64.42;
-            double eur = 81.10;
+            double dol = 77.73;
+            double eur = 85.74;
             int a;
             double b, c, d;
 
@@ -17,7 +17,7 @@ namespace MyStudy
                 "2. Доллары\n" +
                 "3. Евро");
             string str = (Console.ReadLine());
-            bool result = Int32.TryParse(str, out a);
+            bool result = int.TryParse(str, out a);
             if (result == true)
             {
                 Console.WriteLine("\nВведите сумму:");
@@ -29,19 +29,19 @@ namespace MyStudy
                     {
                         case 1:
                             c = b / dol;
-                            Console.WriteLine($"{b} руб = {Math.Round(c, 2)} дол");
+                            Console.WriteLine($"\n{b} руб = {Math.Round(c, 2)} дол");
                             c = b / eur;
                             Console.WriteLine($"{b} руб = {Math.Round(c, 2)} евр");
                             break;
                         case 2:
                             c = dol * b;
-                            Console.WriteLine($"{b} дол = {Math.Round(c, 2)} руб");
+                            Console.WriteLine($"\n{b} дол = {Math.Round(c, 2)} руб");
                             d = c / eur;
                             Console.WriteLine($"{b} дол = {Math.Round(d, 2)} евр");
                             break;
                         case 3:
                             c = eur * b;
-                            Console.WriteLine($"{b} евр = {Math.Round(c, 2)} руб");
+                            Console.WriteLine($"\n{b} евр = {Math.Round(c, 2)} руб");
                             d = c / dol;
                             Console.WriteLine($"{b} евр = {Math.Round(d, 2)} дол");
                             break;
