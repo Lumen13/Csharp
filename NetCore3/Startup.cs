@@ -10,6 +10,29 @@ using Microsoft.Extensions.Hosting;
 
 namespace NetCore3
 {
+    public class TokenMiddleware
+    {
+        private readonly RequestDelegate _next;
+
+        public TokenMiddleware(RequestDelegate next)
+        {
+            this._next = next;
+        }
+
+        public async Task InvokeAsync(HttpContext context)
+        {
+            var token = context.Request.Query["token"];
+            if (token!="12345678")
+            {
+                context.Response.StatusCode = 403;
+                await context.Response.WriteAsync("Token is invalid");
+            }
+            else
+            {
+                await _next.Invoke(context);
+            }
+        }
+    }
     public class Startup
     {
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -19,21 +42,21 @@ namespace NetCore3
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            app.UseMiddleware<TokenMiddleware>();
 
-            app.UseRouting();
-
-            app.UseEndpoints(endpoints =>
+            app.Run(async (context) =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                await context.Response.WriteAsync("Hello World!");
+            });
+        }
+
+        private static void HandleId(IApplicationBuilder app)
+        {
+            app.Run(async context =>
+            {
+                await context.Response.WriteAsync("mid zapolnen 5 rakami");
             });
         }
     }
